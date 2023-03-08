@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>American Express</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static '1/img/favicon.png" rel="icon">
+  <link href="{% static '1/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static '1/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static '1/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '1/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static '1/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static '1/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static '1/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static '1/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File --> 
+  <link href="{% static '1/css/style.css' %}" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">BANK</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+
+          
+          <li><a class="getstarted scrollto" href="{% url 'login' %}">Login</a></li>
+          <li><a class="getstarted scrollto" href="#about">Register</a></li>
+
+          <li class="dropdown"><a href="#"><span>Branches</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Palakkad">Palakkad</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Ernakulam">Ernakulam</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Malappuram">Malappuram</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Kozhikode">Kozhikode</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Thiruvananthapuram">Thiruvananthapuram</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="mainsection d-flex align-items-center" style="height:1000px;" >
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Everyday is a bank account, and time is our currency. No one is rich, no one is poor, we've got 24 hours each.</h1>
+          <h2>Christopher Rice</h2>
+          
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{% static '1/img/hero-img.png' %}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  
+  <!-- Vendor JS Files -->
+  <script src="{% static '1/vendor/aos/aos.js' %}"></script>
+  <script src="{% static '1/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static '1/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static '1/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static '1/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static '1/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static '1/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static '1/js/main.js' %}"></script>
+
+</body>
+
+</html>
